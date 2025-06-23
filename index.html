@@ -2,80 +2,73 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merve Tesisat | Kombi Servisi Mamak</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #ffd700;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        header {
-            background-color: #222;
-            padding: 20px;
-            width: 100%;
-        }
-        h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        .content {
-            padding: 30px;
-            max-width: 600px;
-        }
-        .button {
-            display: inline-block;
-            margin: 10px;
-            padding: 12px 24px;
-            background-color: #ffd700;
-            color: black;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #aaa;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Merve Tesisat | Kombi Servisi Mamak</title>
+  <meta name="description" content="Merve Tesisat - 30 yıllık deneyimle Mamak ve çevresinde kombi bakım, onarım, petek temizliği. 7/24 hizmet.">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #121212; color: white; }
+    header { background: url('https://mervetesisat.github.io/header.jpg') no-repeat center/cover; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; }
+    header h1 { font-size: 2.5em; color: #fff; text-shadow: 2px 2px 5px #000; }
+    .section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    .section h2 { color: #ff4444; margin-bottom: 20px; }
+    .cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card { background: #1f1f1f; padding: 20px; border-radius: 10px; width: 250px; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+    .card h3 { margin-top: 0; color: #ff4444; }
+    .contact { background: #1f1f1f; padding: 20px; border-radius: 10px; }
+    footer { text-align: center; padding: 20px; background: #000; color: #aaa; font-size: 14px; }
+    .fixed-buttons { position: fixed; bottom: 15px; left: 0; right: 0; display: flex; justify-content: space-around; z-index: 9999; }
+    .fixed-buttons a { background: #25d366; color: white; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.4); }
+    .fixed-buttons a.call { background: #ff4444; }
+    @media (max-width: 600px) {
+      .card { width: 100%; }
+    }
+  </style>
 </head>
-<<section id="hakkimizda">
-  <h2>Hakkımızda</h2>
-  <p><strong>Merve Tesisat</strong>, Ankara Mamak bölgesinde 30 yıllık tecrübesiyle kombi bakım, onarım, petek temizliği ve tesisat arızalarında güvenilir hizmet sunmaktadır.<br>
-  Uygun fiyat, kaliteli işçilik ve 7/24 servis anlayışıyla müşteri memnuniyetini ön planda tutar.<br>
-  Tüm bakım ve onarımlar uzman personel tarafından garantili olarak yapılır.</p>
-</section>
->
-    <header>
-        <h1>Merve Tesisat</h1>
-        <p>Kombi Bakım - Onarım - Petek Temizliği</p>
-    </header>
-    <div class="content">
-        <p>📍 Demirlibahçe Mahallesi, Uzgörenler Sokak 30/C Mamak / Ankara</p>
-        <p>📞 0541 579 79 50</p>
-        <a href="https://wa.me/905415797950" class="button">WhatsApp'tan Yaz</a>
-        <a href="tel:05415797950" class="button">Hemen Ara</a>
-        <p>7/24 Acil Kombi Servisi</p>
+<body>
+
+<header>
+  <h1>30 Yıllık Tecrübe ile Kombi Servisi<br>Mamak & Çevresi</h1>
+</header>
+
+<section class="section">
+  <h2>Hizmetlerimiz</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🔧 Kombi Bakımı</h3>
+      <p>Periyodik kombi bakımı ile güvenli ve verimli kullanım.</p>
     </div>
-    <footer>
-        &copy; 2025 Merve Tesisat. Tüm hakları saklıdır.
-    </footer>
+    <div class="card">
+      <h3>🚿 Petek Temizliği</h3>
+      <p>Isı verimliliği ve yakıt tasarrufu için detaylı temizlik.</p>
+    </div>
+    <div class="card">
+      <h3>♻️ Yedek Parça</h3>
+      <p>Orijinal parçalarla arıza onarımı ve değişimi.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Hakkımızda</h2>
+  <p><strong>Merve Tesisat</strong>, Ankara Mamak bölgesinde 30 yıllık tecrübesiyle kombi bakım, onarım, petek temizliği ve tesisat arızalarında güvenilir hizmet sunmaktadır. Uygun fiyat, kaliteli işçilik ve 7/24 servis anlayışıyla müşteri memnuniyetini ön planda tutar.</p>
+</section>
+
+<section class="section contact">
+  <h2>İletişim</h2>
+  <p>📞 <strong>0541 579 79 50</strong></p>
+  <p>📱 <a href="https://wa.me/905415797950" style="color:#25d366;">WhatsApp ile ulaşın</a></p>
+  <p>📍 Demirlibahçe Mah. Uzgörenler Sok. 30/C, Mamak / Ankara</p>
+</section>
+
+<div class="fixed-buttons">
+  <a href="tel:05415797950" class="call">Ara</a>
+  <a href="https://wa.me/905415797950">WhatsApp</a>
+</div>
+
+<footer>
+  © 2025 Merve Tesisat - Tüm Hakları Saklıdır.
+</footer>
+
 </body>
 </html>
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.2157350371564!2d32.89963161540517!3d39.91769887942407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f04886775df%3A0xf6b8b44a2a46939!2sUzg%C3%B6renler%20Sk.%2030%2FC%2C%20Demirlibah%C3%A7e%2C%2006660%20Mamak%2FAnkara!5e0!3m2!1str!2str!4v1718960000000!5m2!1str!2str" 
-  width="100%" 
-  height="300" 
-  style="background-image: url('A_photograph_on_a_promotional_webpage_for_Merve_Te.png');
-;" 
-  allowfullscreen="" 
-  loading="lazy" 
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
